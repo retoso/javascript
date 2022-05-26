@@ -7,9 +7,13 @@ import Dados from './componentes/Dados'
 export default function App(){
   return(
     <>
-    <Header/>
-    <Corpo/>
-    <Dados numeroUm=' numero : ' numeroDois=' numero : ' numeroTres=' numero : '/>
+      <div class="sistema">
+    <section className='container'>
+      <Header/>
+      <Corpo/>
+      <Dados numeroUm=' numero : ' numeroDois=' numero : ' numeroTres=' numero : '/>
+    </section>
+    </div>
  
     </>
   )
