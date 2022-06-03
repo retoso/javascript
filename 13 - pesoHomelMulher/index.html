@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="github.com/retoso">
+    <title>Peso Ideal</title>
+    <link rel="stylesheet" href="../style/style.css">
+
+</head>
+<body>
+
+  <div class="sistema">
+     <div class="container">
+      <p class="descricao">
+        Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo<br>
+        que calcule seu peso ideal, utilizando as seguintes fórmulas:<br>
+        - Para homens: (72.7*h) - 58 <br>
+        - Para mulheres: (62.1*h) - 44.7<br>
+        </p>
+
+      <h1>Altura X Peso</h1>
+      <div class="area">
+        <h2>Altura</h2>
+        <input id="valorAltura" type="number">
+      </div>
+
+      <button onclick="calculate()">Calcular</button>
+      <textarea name="texto_area" id="texto_area" rows="3"></textarea>
+    </div>
+  </div>
+  <script src="./script/script.js"></script>
+ </body>
+</html>
